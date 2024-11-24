@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Estampado Alonso</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/Estampa_Alonso.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/Estampa_Alonso.png" alt="Logo Tienda">
+            <h1>Estampa Alonso</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h2>Personaliza tu mundo con nuestros estampados únicos</h2>
+            <p>Ofrecemos calidad, rapidez y diseños exclusivos.</p>
+            <a href="#productos" class="btn">Ver Productos</a>
+        </section>
+
+        <section id="productos" class="productos">
+            <div class="container">
+                <h2>Productos Destacados</h2>
+                <div class="galeria">
+                    <!-- Producto 1 -->
+                    <div class="producto">
+                        <img src="img/img_polera.jpg" alt="Producto 1">
+                        <h3>Poleras Estampadas</h3>
+                        <p>$9.990 CLP</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+        
+                    <!-- Producto 2 -->
+                    <div class="producto">
+                        <img src="img/gorro_estamp.jpg" alt="Producto 2">
+                        <h3>Gorro Estampado</h3>
+                        <p>$7.990 CLP</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+        
+                    <!-- Producto 3 -->
+                    <div class="producto">
+                        <img src="img/taza_cafe.webp" alt="Producto 3">
+                        <h3>Taza Estampada</h3>
+                        <p>$4.990 CLP</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+        
+                    <!-- Producto 4 -->
+                    <div class="producto">
+                        <img src="img/plato_estamp.jpg" alt="Producto 4">
+                        <h3>Plato Estampado</h3>
+                        <p>$5.990 CLP</p>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="servicios" class="servicios">
+            <h2>Servicios Destacados</h2>
+            <ul>
+                <li>Diseños exclusivos para eventos especiales</li>
+                <li>Descuentos para pedidos al por mayor</li>
+                <li>Entrega a domicilio en todo Chile</li>
+            </ul>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>Contáctanos</h2>
+            <form id="form-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Estampados Chile. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
