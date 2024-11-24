@@ -59,6 +59,59 @@ header nav ul li a:hover {
     background: rgba(255, 255, 255, 0.3);
 }
 
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Contenedor de los tres puntos */
+  .menu-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  /* Los tres puntos */
+  .menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  /* Menú oculto por defecto */
+  .menu-items {
+    display: none;
+    background-color: #333;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilos de los enlaces dentro del menú */
+  .menu-items a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  
+  .menu-items a:hover {
+    background-color: #444;
+    border-radius: 5px;
+  }
+  
+  /* Mostrar el menú cuando se activa */
+  .menu-items.show {
+    display: block;
+  }
+
 /* Hero Section */
 .hero {
     text-align: center;
@@ -273,3 +326,5 @@ footer {
         transform: translateY(0);
     }
 }
+
+
